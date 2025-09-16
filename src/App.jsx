@@ -1,12 +1,11 @@
 import React from 'react'
-import OpenModal from './try/modal/OpenModal'
-import Stopwatch from './try/stopwatch'
+import Counter from './try/usereducer'
 
 function App() {
 
   return (
     <>
-     <Stopwatch/>
+     <Counter/>
     </>
   )
 }
