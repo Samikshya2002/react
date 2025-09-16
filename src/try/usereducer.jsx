@@ -33,11 +33,11 @@ export default function Counter(){
         });
     }
     return(
-        <>
+        <div>
             <input value={state.name} onChange={handleName} />
             <br />
             <button onClick={handleButton}>Increment age</button>
             <p>Hello {state.name} you are {state.age}</p>
-        </>
+        </div>
     )
 }

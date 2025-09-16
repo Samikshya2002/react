@@ -1,11 +1,11 @@
 import React from 'react'
-import Counter from './try/usereducer'
+import CounterApp from './counter app/counter'
 
 function App() {
 
   return (
     <>
-     <Counter/>
+     <CounterApp/>
     </>
   )
 }
