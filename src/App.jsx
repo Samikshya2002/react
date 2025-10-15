@@ -6,7 +6,7 @@ function App() {
   return (
     <>
      <CounterApp/>
-     <h1>Hello</h1>
+     <h1>Hello Sam</h1>
     </>
   )
 }
