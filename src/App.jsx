@@ -1,12 +1,14 @@
 import React from 'react'
 import CounterApp from './counter app/counter'
+import TrafficLight from './try/traffic'
+import AddToCart from './try/AddtoCart'
 
 function App() {
 
   return (
     <>
-     <CounterApp/>
-     <h1>Hello Sam</h1>
+    
+     <AddToCart/>
     </>
   )
 }
